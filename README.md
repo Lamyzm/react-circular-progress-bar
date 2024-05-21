@@ -1,5 +1,5 @@
 
-<p align='center'>A customizable circular progress bar for React.
+<p align='center'> 아래 프로젝트에서 fork 후 dropShadow만 제거한 버전입니다.
 <br>
 <br>
 <a target="_blank" href="https://alptugidin.github.io/react-circular-progress-bar/">Demo</a>
