@@ -127,6 +127,26 @@ const App: React.FC = () => {
               }}
             />
           </div>
+          <div className='h-[30px] w-full bg-black'>hasdassdi</div>
+          <div className='w-40'>
+            <Flat
+              progress={50}
+              text={'Lorem ipsum'}
+              sx={{
+                strokeColor: '#ff0000',
+                barWidth: 5
+              }}
+            />
+          </div>
+          <Flat
+            progress={50}
+            text={'Lorem ipsum'}
+            sx={{
+              strokeColor: '#ff0000',
+              barWidth: 5
+            }}
+          />
+          <div className='w-full h-[30px]'>ads</div>
           <div className='w-40'>
             <Nested
               circles={[

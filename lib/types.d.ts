@@ -25,6 +25,7 @@ export interface IFlat {
       miniCircleSize?: number
       valueAnimation?: boolean
       intersectionEnabled?: boolean
+      dropShadow?: boolean
    }
 }
 

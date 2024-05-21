@@ -1,9 +1,48 @@
 {
-  "name": "react-circular-progress-bar",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react-circular-progress-bar-fork-lamyzm",
+  "version": "0.0.1",
+  "author": "Alptuğ İdin",
   "type": "module",
-  "homepage": "https://alptugidin.github.io/react-circular-progress-bar/",
+  "homepage": "https://github.com/Lamyzm/react-circular-progress-bar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lamyzm/react-circular-progress-bar"
+  },
+  "description": "react-circular-progress-bar 드랍 셰도우 제거버전",
+  "keywords": [
+    "react",
+    "progress bar",
+    "circular progress bar",
+    "nested progress bar",
+    "progress"
+  ],
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
+  "files": [
+    "./index.d.ts",
+    "./index.esm.js",
+    "./index.js",
+    "./package.json",
+    "README.md"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
