@@ -21,11 +21,11 @@
 
 # Installation
 ```bash
-npm install @alptugidin/react-circular-progress-bar
+npm i react-circular-progress-bar-fork-lamyzm
 ```
 or
 ```bash
-yarn add @alptugidin/react-circular-progress-bar
+yarn add react-circular-progress-bar-fork-lamyzm
 ```
 
 # Import
