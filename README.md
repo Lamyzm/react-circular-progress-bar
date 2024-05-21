@@ -1,5 +1,5 @@
 
-<p align='center'>A customizable circular progress bar for React.
+<p align='center'> 아래 프로젝트에서 fork 후 dropShadow만 제거한 버전입니다.
 <br>
 <br>
 <a target="_blank" href="https://alptugidin.github.io/react-circular-progress-bar/">Demo</a>
@@ -21,11 +21,11 @@
 
 # Installation
 ```bash
-npm install @alptugidin/react-circular-progress-bar
+npm i react-circular-progress-bar-fork-lamyzm
 ```
 or
 ```bash
-yarn add @alptugidin/react-circular-progress-bar
+yarn add react-circular-progress-bar-fork-lamyzm
 ```
 
 # Import
