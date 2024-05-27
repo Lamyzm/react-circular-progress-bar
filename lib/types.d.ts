@@ -1,4 +1,4 @@
-export interface IFlat {
+export interface Flat {
    progress: number
    range?: { from: number, to: number }
    text?: string

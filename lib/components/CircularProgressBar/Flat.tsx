@@ -1,7 +1,7 @@
 import React, { CSSProperties, useEffect, useRef, useState } from 'react';
 import { useAnimatedValue } from '../../hooks/useAnimatedValue';
 import { useIntersection } from '../../hooks/useIntersection';
-import { IFlat } from '../../types';
+import { Flat as IFlat } from '../../types';
 
 const Flat: React.FC<IFlat> = ({
   progress = 0,
@@ -97,7 +97,7 @@ const Flat: React.FC<IFlat> = ({
 
   return (
     <div ref={flatRef} style={{ position: 'relative' }}>
-      <svg viewBox='0 0 110 110' style={{ position: 'relative', zIndex: 50 }}>
+      <svg viewBox='0 0 110 110' style={{ position: 'relative', zIndex: 20 }}>
         <circle
           cx="55"
           cy="55"

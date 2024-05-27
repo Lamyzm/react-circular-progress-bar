@@ -2,7 +2,7 @@ import { defineConfig } from 'tsup';
 export default defineConfig({
    entry: ['./lib/index.ts'],
    format: ['cjs', 'esm'],
-   dts: { entry: { index: './lib/types.d.ts' } },
+   dts: true,
    minify: true,
    clean: true,
    outExtension({ format }) {
